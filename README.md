@@ -29,6 +29,7 @@
 - python3.6
 
 ## **필요 라이브러리**
+- numpy==1.18.5
 - pandas
 - tqdm
 - gensim==3.6.0
