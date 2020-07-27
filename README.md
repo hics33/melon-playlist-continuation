@@ -44,6 +44,7 @@ $> python inference.py --testset dev
    - 제출에 사용한 모델 링크입니다. 이 파일을 사용할 때는 inference.py만 실행하면 됩니다.  
    - https://drive.google.com/file/d/1LA7knPkDg6ipuXGd8IPG86F4BDcmrSS9/view?usp=sharing  
    - ./arena_data/model/에 압축을 풀어 주면 됩니다.  
+   - 위 파일에는 word2vec 모델이 저장되어 있고, title을 형태소 분석한 결과는 이 repository에 포함 되어 있습니다. (arena_data/model/pred_tag.json)
 - inference.py에 --testset dev 옵션을 주면 dev셋(공개 데이터셋)에 대한 결과를 생성합니다. 주지 않을 경우 비공개 test셋에 대한 결과를 생성합니다.  
 ## **최종 결과물**
 - python inference.py 실행 시, 비공개 셋에 대한 결과
