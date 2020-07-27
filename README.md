@@ -25,9 +25,6 @@
         │    └── test : 비공개 데이터셋에 대한 결과 저장
         └── ...
 ```
-## **실행 환경**
-- python 3.6
-
 ## **필요 라이브러리**
 - pandas
 - tqdm
@@ -41,7 +38,7 @@ $> python inference.py
 $> python inference.py --testset dev
 ```
 - train.py를 실행하면 word2vec 모델과 playlist 임베딩을 생성하고, title을 형태소 분석한 결과가 추출됩니다.  
-   - 제출에 사용한 모델 링크입니다. 이 파일을 사용할 때는 inference.py만 실행하면 됩니다.  
+   - 제출에 사용한 모델 링크입니다. 이 파일을 사용할 때는 inference.py만 실행하면 됩니다.
    - https://drive.google.com/file/d/1LA7knPkDg6ipuXGd8IPG86F4BDcmrSS9/view?usp=sharing  
    - ./arena_data/model/에 압축을 풀어 주면 됩니다.  
    - 위 파일에는 word2vec 모델이 저장되어 있고, title을 형태소 분석한 결과는 이 repository에 포함 되어 있습니다. (arena_data/model/pred_tag.json)
