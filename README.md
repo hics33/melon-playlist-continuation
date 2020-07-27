@@ -25,10 +25,13 @@
         │    └── test : 비공개 데이터셋에 대한 결과 저장
         └── ...
 ```
+## **실행 환경**
+- python3.6
+
 ## **필요 라이브러리**
 - pandas
 - tqdm
-- gensim
+- gensim==3.6.0
 - khaiii : https://github.com/kakao/khaiii
 
 ## **실행 방법**
