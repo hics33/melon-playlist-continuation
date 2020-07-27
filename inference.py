@@ -14,7 +14,7 @@ if __name__ == '__main__':
   else:
     print("Invalid argument for --testset, input 'test' or 'dev'")
 
-  if MODE in ["Test", "Dev"]:
+  if args.testset in ["test", "dev"]:
     print("CF Model 1 infrence starts")
     cf1.infer(MODE)
     print("CF Model 2 infrence starts")

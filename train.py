@@ -2,7 +2,7 @@ import argparse
 
 import w2v
 from w2v import LossPrinter
-#import song_title_to_tag
+import song_title_to_tag
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
   if args.mode in ['all', 'tag']:
     print("Extracting tags from song titles")
-    #song_title_to_tag.extract_tag_from_song_title()
+    song_title_to_tag.extract_tag_from_song_title()
   if args.mode in ['all', 'vec']:
     print("Training Word2Vec")
     w2v.train()
